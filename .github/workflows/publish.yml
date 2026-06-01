@@ -4,12 +4,6 @@ on:
   push:
     branches:
       - main
-    paths:
-      - 'hashlock-sdk/**'
-
-defaults:
-  run:
-    working-directory: ./hashlock-sdk
 
 jobs:
   build-and-publish:
